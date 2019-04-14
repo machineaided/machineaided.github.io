@@ -1111,7 +1111,7 @@ h2 {color: teal; font-family: script}
 
 
 <style>
-body{margin: 10px;
+body{margin: 30px;
 padding: 85px;
 background:#fff url(http://img.pptjia.com/image/20180122/4652e19c5e31b6dac620f55d87386ab5.png) center center fixed no-repeat;
 background-size: cover;
@@ -1126,12 +1126,12 @@ background-size: cover;
 
 <form name="aba">
 <P ALIGN=center>
-A: <input type="text" name="A" size="20">
+Chinese: <input type="text" name="A" size="20">
 <br />
 <input type="button" name="A2B" value="↓" onClick="a2b()">
 <input type="button" name="B2A" value="↑" onClick="b2a()">
 <br />
-B: <input type="text" name="B" size="20">
+English: <input type="text" name="B" size="20">
 </P>
 </form>
 
