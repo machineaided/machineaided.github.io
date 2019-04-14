@@ -1111,7 +1111,7 @@ h2 {color: teal; font-family: script}
 
 
 <style>
-body{margin: 30px;
+body{margin: 10px;
 padding: 85px;
 background:#fff url(http://img.pptjia.com/image/20180122/4652e19c5e31b6dac620f55d87386ab5.png) center center fixed no-repeat;
 background-size: cover;
