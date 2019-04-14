@@ -1126,12 +1126,12 @@ background-size: cover;
 
 <form name="aba">
 <P ALIGN=center>
-A: <input type="text" name="A" size="20">
+Chinese: <input type="text" name="A" size="20">
 <br />
 <input type="button" name="A2B" value="↓" onClick="a2b()">
 <input type="button" name="B2A" value="↑" onClick="b2a()">
 <br />
-B: <input type="text" name="B" size="20">
+English: <input type="text" name="B" size="20">
 </P>
 </form>
 
