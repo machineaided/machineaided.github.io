@@ -1398,6 +1398,18 @@ else
 }
 
 
+function c2b(){
+document.aba.B.value="";
+for (i=0; i<abList.length; i++)
+  if(document.aba.C.value==abList[i][2])
+    {document.aba.B.value=document.aba.B.value + abList[i][1] + "/";};
+    
+if(document.aba.B.value=="")
+  document.aba.B.value="Not found.";
+else
+  document.aba.B.value=document.aba.B.value.substr(0,document.aba.B.value.length-1); //delete the final slash.
+}
+
 
 function b2a(){
 document.aba.A.value="";
@@ -1434,18 +1446,21 @@ background-size: cover;
 
 <form name="aba">
 <P ALIGN=center>
-Chinese: <input type="text" name="A" size="20"> 
+Traditional Chinese: <input type="text" name="A" size="20"> 
 <br />
-English: <input type="text" name="B" size="20">
+Simplified Chinese: <input type="text" name="C" size="20"> 
 <br />
-Pinyin: <input type="text" name="D" size="15"> 
+English: <input type="text" name="B" size="30">
 <br />
-Jyutping: <input type="text" name="E" size="15">
+Pinyin: <input type="text" name="D" size="30"> 
 <br />
-<input type="button" name="A2B" value="english" onClick="a2b()">
-<input type="button" name="B2A" value="chinese" onClick="b2a()">
-<input type="button" value="pinyin" onClick="a2d()">
-<input type="button" value="jyutping" onClick="a2e()">
+Jyutping: <input type="text" name="E" size="30">
+<br />
+<input type="button" name="A2B" value="TC-English" onClick="a2b()">
+<input type="button" name="C2B" value="SC-English" onClick="c2b()">
+<input type="button" name="B2A" value="E-Chinese" onClick="b2a()">
+<input type="button" value="Pinyin" onClick="a2d()">
+<input type="button" value="Jyutping" onClick="a2e()">
 </p>
 </form>
 
