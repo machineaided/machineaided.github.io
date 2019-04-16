@@ -1461,6 +1461,14 @@ Jyuping: <input type="text" name="E" size="15">
 <input type="button" value="Excel Version" onClick="location.href='https://docs.google.com/spreadsheets/d/1PlgddSsqFnzBbcifguRIUC9sN1BgwIteCDy3zXlKXKw/edit?usp=sharing'">
 <input type="button" value="PDF Version" onClick="location.href='https://drive.google.com/file/d/1Rx10CYUmu-IiPZO8WKUDc1_DyvNYgK4S/view?usp=sharing'">
 </P>
+<BR>
+<BR>
+<BR>
+
+<P ALIGN=center>
+<img src="https://www.polyu.edu.hk/as/infoday/filemanager/template/common/images/logo-hkpolyu.jpg?345" border="0">
+</P>
+
 </body>
 </html>
 
